@@ -3,9 +3,6 @@ SendMode Input
 SetKeyDelay, -1, -1
 SetWorkingDir %A_ScriptDir%
 
-; =========================
-; CHECK AND MAKE HONEY FUNCTION
-; =========================
 CheckAndMakeHoney()
 {
     global macroRunning, settingsFile
@@ -94,9 +91,7 @@ CheckAndMakeHoney()
     ContinueGatherLoop()
 }
 
-; =========================
-; CONTINUE GATHER LOOP FUNCTION
-; =========================
+;continue after 
 ContinueGatherLoop()
 {
     global macroRunning, chosenField, hiveConfirmed, running, speedReady
